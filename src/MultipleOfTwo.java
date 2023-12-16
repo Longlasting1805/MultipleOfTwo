@@ -10,7 +10,7 @@ public class MultipleOfTwo {
         int count = 1;
         int two = 2;
 
-        while (count < 50){
+        while (true){
             int isTwo = count * two;
             System.out.println("Multiplying by: "+ isTwo);
             count++;
